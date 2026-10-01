@@ -1,0 +1,10 @@
+**/appsettings.json
+**/appsettings.*.json
+**/.playwright/
+**/node_modules/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.log
