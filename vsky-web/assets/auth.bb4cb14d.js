@@ -1,0 +1,1 @@
+import{b as i,E as n,u as l}from"./index.827de379.js";var c=i(({router:a,store:r})=>{a.beforeEach((o,f,e)=>{if(o.matched.some(s=>s.meta.requiresAuth))if(!n.getItem("token"))e({name:"login"});else{const t=l(r).user,u=t!=null&&t.roles?t.roles.indexOf("superadmin")>-1:!1;o.matched.some(m=>m.meta.requiresAdmin)&&!u?e({name:"not_authorized"}):e()}else e()})});export{c as default};
