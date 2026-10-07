@@ -1,1 +1,0 @@
-import{a as e}from"./index.827de379.js";var o={getProfile(){return e.get("/account/profile").then(t=>t.data)},saveProfile(t){return e.post("/account/profile",t,{headers:{"Content-Type":"multipart/form-data"}}).then(a=>a.data)},changePassword(t){return e.post("/account/change-password",t).then(a=>a.data)}};export{o as a};
