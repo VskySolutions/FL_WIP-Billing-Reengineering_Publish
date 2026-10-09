@@ -1,26 +1,26 @@
 {
   "database": {
     "Success": true,
-    "Message": "Connected to \u0022WIPBilling\u0022 on \u0022DESKTOP-2K5I25V\u0022 successfully.",
-    "VerifiedAt": "2026-09-29T11:53:28.1182875Z",
-    "Fingerprint": "42F3B2F5B221196E42A315A7D070E5DE482744B8AFC86C02FEABC97A525ECB6A"
+    "Message": "Connected to \u0022WIPBilling_2020\u0022 on \u0022DESKTOP-2K5I25V\u0022 successfully.",
+    "VerifiedAt": "2026-10-09T09:47:08.3873464Z",
+    "Fingerprint": "E156E11BD99C4827D46588DD7070C8089EF7A582C9E5E72394FF2609106C1CB0"
   },
   "sharepoint": {
     "Success": true,
     "Message": "Connected to SharePoint successfully. Root folder \u0022WIP Billing\u0022 found.",
-    "VerifiedAt": "2026-09-29T11:54:01.4832684Z",
+    "VerifiedAt": "2026-10-09T09:47:23.6072591Z",
     "Fingerprint": "B513D8323477F8C8DFF87E4217425B678E59093F7191A2D54579FB4E9E089F02"
   },
   "maconomy": {
     "Success": true,
     "Message": "Credentials are valid. Connected to Maconomy successfully.",
-    "VerifiedAt": "2026-09-29T11:55:37.3287438Z",
+    "VerifiedAt": "2026-10-09T09:47:12.4501888Z",
     "Fingerprint": "5499D13029FE633CCFC64C78F8028DFE9B3D3ED30838AEF8149E89EA2CD98221"
   },
   "microsoftgraph": {
     "Success": true,
     "Message": "Credentials are valid. The app uses \u0022Sites.Selected\u0022 - make sure it has been granted write access to the SharePoint site.",
-    "VerifiedAt": "2026-09-29T11:54:14.3646225Z",
+    "VerifiedAt": "2026-10-09T09:47:18.2010964Z",
     "Fingerprint": "EAEA5D1528A222E0922E281D39329A318FA8CF2FCCA93DB7F6BCDDD396C35EA2"
   }
 }
