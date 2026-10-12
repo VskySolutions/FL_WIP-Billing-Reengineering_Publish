@@ -2,7 +2,7 @@
   "database": {
     "Success": true,
     "Message": "Connected to \u0022WIPBilling\u0022 on \u0022DESKTOP-2K5I25V\u0022 successfully.",
-    "VerifiedAt": "2026-09-29T11:53:28.1182875Z",
+    "VerifiedAt": "2026-10-12T12:42:47.4468639Z",
     "Fingerprint": "42F3B2F5B221196E42A315A7D070E5DE482744B8AFC86C02FEABC97A525ECB6A"
   },
   "sharepoint": {
@@ -14,7 +14,7 @@
   "maconomy": {
     "Success": true,
     "Message": "Credentials are valid. Connected to Maconomy successfully.",
-    "VerifiedAt": "2026-09-29T11:55:37.3287438Z",
+    "VerifiedAt": "2026-10-09T15:47:15.5202986Z",
     "Fingerprint": "5499D13029FE633CCFC64C78F8028DFE9B3D3ED30838AEF8149E89EA2CD98221"
   },
   "microsoftgraph": {
