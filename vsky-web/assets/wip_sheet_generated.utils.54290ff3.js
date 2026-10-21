@@ -1,1 +1,0 @@
-import{d as r}from"./date.fc38334c.js";const e=t=>t?r.formatDate(t,"YYYY-MM-DD"):"",n=t=>t?r.parseDate(t,"YYYY-MM-DD"):null,s=t=>t?r.formatDate(t,"MM/DD/YYYY"):"",D={CLIENT:"Level 1 Client",PARTNER:"Relationship Partner"};export{D as R,e as a,s as f,n as p};

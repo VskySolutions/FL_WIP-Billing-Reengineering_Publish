@@ -841,3 +841,12 @@ BEGIN TRANSACTION;
 
 COMMIT TRANSACTION;
 
+--11
+  Update EmailAccount set DisplayName ='WIP Billing' 
+  Where Id='A77C569E-2329-442E-A476-E5E977051CB5'
+  
+-- 12
+  Update MessageTemplate set Body ='Hello %User.FirstName%,<br><br>You have successfully reset the password for your WIP Billing account.<br><br>Please find the new password below:<br><br><b>%User.Password%</b><br><br>Thanks,<br>Team WIP Billing'
+  Where Id='E88E0084-9418-49D8-879F-5348DFF9B092'
+  
+  
