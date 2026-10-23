@@ -846,7 +846,13 @@ COMMIT TRANSACTION;
   Where Id='A77C569E-2329-442E-A476-E5E977051CB5'
   
 -- 12
-  Update MessageTemplate set Body ='Hello %User.FirstName%,<br><br>You have successfully reset the password for your WIP Billing account.<br><br>Please find the new password below:<br><br><b>%User.Password%</b><br><br>Thanks,<br>Team WIP Billing'
+  Update MessageTemplate set Body ='Hello %User.FirstName%,<br><br>You have successfully reset the password for your WIP Billing account.<br><br>Please find the new password below:<br><br><b>%User.Password%</b><br><br>Thanks,<br>Team WIP Billing',
+  Subject = 'WIP Billing - Reset Password'
   Where Id='E88E0084-9418-49D8-879F-5348DFF9B092'
   
-  
+ --13
+UPDATE dbo.MessageTemplate
+SET Subject = REPLACE(Subject, 'HLDA', 'WIP Billing')
+WHERE Subject LIKE '%HLDA%';
+   
+   
