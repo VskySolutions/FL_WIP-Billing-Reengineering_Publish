@@ -854,5 +854,3 @@ COMMIT TRANSACTION;
 UPDATE dbo.MessageTemplate
 SET Subject = REPLACE(Subject, 'HLDA', 'WIP Billing')
 WHERE Subject LIKE '%HLDA%';
-   
-   

@@ -8,13 +8,13 @@
   "sharepoint": {
     "Success": true,
     "Message": "Connected to SharePoint successfully. Root folder \u0022WIP Billing\u0022 found.",
-    "VerifiedAt": "2026-10-21T07:24:22.0645407Z",
+    "VerifiedAt": "2026-10-22T09:35:07.6613753Z",
     "Fingerprint": "B513D8323477F8C8DFF87E4217425B678E59093F7191A2D54579FB4E9E089F02"
   },
   "maconomy": {
     "Success": true,
     "Message": "Credentials are valid. Connected to Maconomy successfully.",
-    "VerifiedAt": "2026-10-21T07:20:42.7784686Z",
+    "VerifiedAt": "2026-10-28T10:04:43.3810333Z",
     "Fingerprint": "5499D13029FE633CCFC64C78F8028DFE9B3D3ED30838AEF8149E89EA2CD98221"
   },
   "microsoftgraph": {
