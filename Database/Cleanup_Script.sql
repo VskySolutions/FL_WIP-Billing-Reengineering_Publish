@@ -1,0 +1,17 @@
+BEGIN TRAN;
+DELETE FROM dbo.JobMessageRead;
+DELETE FROM dbo.JobMessage;
+DELETE FROM dbo.JobActivityLog;
+DELETE FROM dbo.Timesheet;
+DELETE FROM dbo.JobDetails;
+DELETE FROM dbo.Jobs;
+DELETE FROM dbo.Client;
+DELETE FROM dbo.[Partner];
+DELETE FROM dbo.WipGeneration;
+DELETE FROM dbo.NotificationDetails;
+DELETE FROM dbo.Notifications;
+DELETE FROM dbo.Notes;
+DELETE FROM dbo.ActivityLog;
+DELETE FROM dbo.[Log];
+DELETE FROM dbo.QueuedEmail;
+COMMIT;
